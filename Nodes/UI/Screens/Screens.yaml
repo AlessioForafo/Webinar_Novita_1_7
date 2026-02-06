@@ -170,7 +170,7 @@ Children:
                 Type: BaseVariableType
                 DataType: DynamicLinkMode
                 ModellingRule: Optional
-                Value: 2
+                Value: 1
           - Name: SelectedItem
             Type: NodePointer
             DataType: NodeId
@@ -248,6 +248,14 @@ Children:
           DataType: Size
           ModellingRule: Optional
           Value: 40.0
+      - Name: LeftMargin
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+      - Name: TopMargin
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
     - Name: HorizontalGap
       Type: BaseDataVariableType
       DataType: Size
@@ -1561,6 +1569,60 @@ Children:
       DataType: Size
       ModellingRule: Optional
       Value: 220.0
+    - Name: Switch3
+      Type: Switch
+      Children:
+      - Name: Checked
+        Type: BaseDataVariableType
+        DataType: Boolean
+        Children:
+        - Name: DynamicLink
+          Type: DynamicLink
+          DataType: NodePath
+          Value: "/Objects/Webinar_Novita_1_7/Model/Alarms[2]"
+          Children:
+          - Name: Mode
+            Type: BaseVariableType
+            DataType: DynamicLinkMode
+            ModellingRule: Optional
+            Value: 2
+      - Name: Width
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 60.0
+      - Name: VerticalAlignment
+        Type: BaseVariableType
+        DataType: VerticalAlignment
+        ModellingRule: Optional
+        Value: 2
+    - Name: Switch4
+      Type: Switch
+      Children:
+      - Name: Checked
+        Type: BaseDataVariableType
+        DataType: Boolean
+        Children:
+        - Name: DynamicLink
+          Type: DynamicLink
+          DataType: NodePath
+          Value: "/Objects/Webinar_Novita_1_7/Model/Alarms[3]"
+          Children:
+          - Name: Mode
+            Type: BaseVariableType
+            DataType: DynamicLinkMode
+            ModellingRule: Optional
+            Value: 2
+      - Name: Width
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 60.0
+      - Name: VerticalAlignment
+        Type: BaseVariableType
+        DataType: VerticalAlignment
+        ModellingRule: Optional
+        Value: 2
 - Name: ListViewScreen
   Id: g=aa5b763287256b8b99df7e46d237bd99
   Supertype: Screen

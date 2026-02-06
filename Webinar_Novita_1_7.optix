@@ -107,10 +107,10 @@ Project:
    Module: FTOptix.RecipeX.Net
    Version: 1.1
  Statistics:
-  TotalNodeCount: 16441
-  Objects: 3634
+  TotalNodeCount: 16455
+  Objects: 3636
   ObjectTypes: 81
-  Variables: 12699
+  Variables: 12711
   VariableTypes: 0
   DataTypes: 0
   Methods: 27
