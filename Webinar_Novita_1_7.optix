@@ -98,16 +98,24 @@ Project:
    Uri: 'urn:FTOptix:SerialPort:Net'
    Module: FTOptix.SerialPort.Net
    Version: 1.0
+  27:
+   Uri: 'urn:FTOptix:RecipeX'
+   Module: FTOptix.RecipeX
+   Version: 1.1
+  28:
+   Uri: 'urn:FTOptix:RecipeX:Net'
+   Module: FTOptix.RecipeX.Net
+   Version: 1.1
  Statistics:
-  TotalNodeCount: 14470
-  Objects: 3232
-  ObjectTypes: 64
-  Variables: 11147
+  TotalNodeCount: 16441
+  Objects: 3634
+  ObjectTypes: 81
+  Variables: 12699
   VariableTypes: 0
   DataTypes: 0
   Methods: 27
-  References: 100
+  References: 165
   ReferenceTypes: 0
-  Files: 28
+  Files: 36
  Nodes:
  - File: Nodes/Webinar_Novita_1_7.yaml

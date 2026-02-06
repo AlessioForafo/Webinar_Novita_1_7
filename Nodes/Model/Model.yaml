@@ -16,3 +16,4 @@ Children:
   DataType: Boolean
   ValueRank: OneDimension
   ArrayDimensions: [5]
+- File: RecipeVariables/RecipeVariables.yaml

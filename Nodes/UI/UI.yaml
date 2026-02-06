@@ -198,6 +198,10 @@ Children:
     Children:
     - Name: Default
       Type: ScreenStyle
+  - Name: FontPixelSize
+    Type: BaseDataVariableType
+    DataType: Float
+    Value: 16.0
 - Name: NativePresentationEngine
   Type: NativePresentationEngine
   ReferenceType: HasOrderedComponent
@@ -205,7 +209,7 @@ Children:
   - Name: VirtualKeyboard
     Type: BaseDataVariableType
     DataType: VirtualKeyboardEngineTypeEnum
-    Value: 1
+    Value: 2
   - Name: StartWindow
     Type: NodePointer
     DataType: NodeId
@@ -412,6 +416,36 @@ Children:
     - Name: Panels
       Type: BaseObjectType
       Children:
+      - Name: Panel4
+        Type: NavigationPanelItem
+        Children:
+        - Name: Title
+          Type: BaseDataVariableType
+          DataType: LocalizedText
+        - Name: Panel
+          Type: NodePointer
+          DataType: NodeId
+          Value: "/Objects/Webinar_Novita_1_7/UI/Screens/RecipeX"
+          Children:
+          - Name: Kind
+            Type: PropertyType
+            DataType: NodeId
+            Value: "/Types/ObjectTypes/BaseObjectType/BaseUIObject/Item/Container"
+      - Name: Panel3
+        Type: NavigationPanelItem
+        Children:
+        - Name: Title
+          Type: BaseDataVariableType
+          DataType: LocalizedText
+        - Name: Panel
+          Type: NodePointer
+          DataType: NodeId
+          Value: "/Objects/Webinar_Novita_1_7/UI/Screens/ListViewScreen"
+          Children:
+          - Name: Kind
+            Type: PropertyType
+            DataType: NodeId
+            Value: "/Types/ObjectTypes/BaseObjectType/BaseUIObject/Item/Container"
       - Name: Panel1
         Type: NavigationPanelItem
         Children:
@@ -515,3 +549,4 @@ Children:
 - File: Keyboards/Keyboards.yaml
 - File: MyWidget/MyWidget.yaml
 - File: AlarmWidgets/AlarmWidgets.yaml
+- File: RecipesEditor/RecipesEditor.yaml

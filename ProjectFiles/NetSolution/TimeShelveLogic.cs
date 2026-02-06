@@ -4,6 +4,7 @@ using FTOptix.UI;
 using FTOptix.NetLogic;
 using FTOptix.Alarm;
 using FTOptix.SerialPort;
+using FTOptix.RecipeX;
 #endregion
 
 public class TimeShelveLogic : BaseNetLogic

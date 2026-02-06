@@ -70,6 +70,20 @@ Children:
     Type: BaseDataVariableType
     DataType: LocalizedText
     Value: {"LocaleId":"en-US","Text":"Alarm message 1"}
+  - Name: Severity
+    Id: g=d4304a451f21b6cf9f63f0e84ed06ca5
+    Type: BaseDataVariableType
+    DataType: UInt16
+  - Name: AutoAcknowledge
+    Id: g=5e5e6125a238698d9188d47592779df2
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: true
+  - Name: AutoConfirm
+    Id: g=32f575eb4117e1cce056e92217483183
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: true
 - Name: DigitalAlarm2
   Id: g=172efc31fa60613cb99cbf1b817e0d2e
   Type: OffNormalAlarmController
@@ -138,3 +152,179 @@ Children:
     Type: BaseDataVariableType
     DataType: LocalizedText
     Value: {"LocaleId":"en-US","Text":"Alarm message 2"}
+  - Name: AutoAcknowledge
+    Id: g=eaa83d1d570b593ff9371bd020c33666
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: true
+  - Name: AutoConfirm
+    Id: g=71d436065555333b7e7beb51187a37d0
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: true
+- Name: DigitalAlarm3
+  Id: g=b7f40af71d8fcb7536e7daf246ba4504
+  Type: OffNormalAlarmController
+  Children:
+  - Name: NormalStateValue
+    Id: g=23747856467303ff6999bd8352a95a14
+    Type: BaseDataVariableType
+    DataType: Double
+  - Name: InputValue
+    Id: g=faa22bea34486bfd454174f7d10931d1
+    Type: BaseDataVariableType
+    DataType: Double
+    Children:
+    - Name: DynamicLink
+      Id: g=15e04e216b31ccb9165b89cd3202967b
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../Model/Alarms[2]"
+      Children:
+      - Name: Mode
+        Id: g=b36a6ecb3add7d840b8248144b06c8be
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
+  - Name: LastEvent
+    Id: g=a62ffad35f601116dcaf540f2cab14d2
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Class: Reference
+    Target: ns=23;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=23;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=23;i=83
+    Direction: Forward
+  - Class: Reference
+    Target: ns=23;i=130
+    Direction: Forward
+  - Class: Reference
+    Target: ns=23;i=135
+    Direction: Forward
+  - Class: Reference
+    Target: ns=23;i=132
+    Direction: Forward
+  - Class: Reference
+    Target: ns=23;i=146
+    Direction: Forward
+  - Class: Reference
+    Target: ns=23;i=148
+    Direction: Forward
+  - Class: Reference
+    Target: ns=23;i=150
+    Direction: Forward
+  - Class: Reference
+    Target: ns=23;i=152
+    Direction: Forward
+  - Class: Reference
+    Target: ns=23;i=154
+    Direction: Forward
+  - Name: Message
+    Id: g=30121d10c24cdf52ed6f865b7b0f52d8
+    Type: BaseDataVariableType
+    DataType: LocalizedText
+    Value: {"LocaleId":"en-US","Text":"Alarm message 3"}
+  - Name: Severity
+    Id: g=b6170dc62fe49c1a3b565318f3000494
+    Type: BaseDataVariableType
+    DataType: UInt16
+    Value: 2
+  - Name: AutoAcknowledge
+    Id: g=e49d5e2634df1de37eb36d590cedddf0
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: true
+  - Name: AutoConfirm
+    Id: g=dc75521c19f757ef116aa56e37345b9d
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: true
+- Name: DigitalAlarm4
+  Id: g=a5b4d83b760e5e69d047bebbf83125c1
+  Type: OffNormalAlarmController
+  Children:
+  - Name: NormalStateValue
+    Id: g=4dab19e139c492c014732e1f55db3e1f
+    Type: BaseDataVariableType
+    DataType: Double
+  - Name: InputValue
+    Id: g=82a7b4e33a8d165546f5ab9a40c5f2a8
+    Type: BaseDataVariableType
+    DataType: Double
+    Children:
+    - Name: DynamicLink
+      Id: g=17fd253bf7df9ee21276449f42be03c1
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../Model/Alarms[3]"
+      Children:
+      - Name: Mode
+        Id: g=ee8928561dcb2fc33fc3498424113e1a
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
+  - Name: LastEvent
+    Id: g=493d71d7a2a51838eb47a07c4f799236
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Class: Reference
+    Target: ns=23;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=23;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=23;i=83
+    Direction: Forward
+  - Class: Reference
+    Target: ns=23;i=130
+    Direction: Forward
+  - Class: Reference
+    Target: ns=23;i=135
+    Direction: Forward
+  - Class: Reference
+    Target: ns=23;i=132
+    Direction: Forward
+  - Class: Reference
+    Target: ns=23;i=146
+    Direction: Forward
+  - Class: Reference
+    Target: ns=23;i=148
+    Direction: Forward
+  - Class: Reference
+    Target: ns=23;i=150
+    Direction: Forward
+  - Class: Reference
+    Target: ns=23;i=152
+    Direction: Forward
+  - Class: Reference
+    Target: ns=23;i=154
+    Direction: Forward
+  - Name: Message
+    Id: g=92abde2a73ec620807ad1c42b27f615b
+    Type: BaseDataVariableType
+    DataType: LocalizedText
+    Value: {"LocaleId":"en-US","Text":"Alarm message 4"}
+  - Name: Severity
+    Id: g=6098c14fa54b4c07061128ca2d115629
+    Type: BaseDataVariableType
+    DataType: UInt16
+    Value: 3
+  - Name: AutoAcknowledge
+    Id: g=abf6342992af22cdbf2402a95c8cda81
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: true
+  - Name: AutoConfirm
+    Id: g=6730800bbc20b3e42494717fdcd7dcee
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: true
