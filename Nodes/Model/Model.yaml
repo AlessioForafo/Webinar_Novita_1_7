@@ -1,0 +1,18 @@
+Name: Model
+Type: ModelCategoryFolder
+Children:
+- Name: VarTemperature
+  Type: BaseDataVariableType
+  DataType: Float
+- Name: VariableNoUnit
+  Type: BaseDataVariableType
+  DataType: Float
+- Name: Variable1
+  Id: g=a58e101356ae144363a208e2a52f9a21
+  Type: BaseDataVariableType
+  DataType: Int32
+- Name: Alarms
+  Type: BaseDataVariableType
+  DataType: Boolean
+  ValueRank: OneDimension
+  ArrayDimensions: [5]
