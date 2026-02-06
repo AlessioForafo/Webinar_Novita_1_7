@@ -99,10 +99,10 @@ Project:
    Module: FTOptix.SerialPort.Net
    Version: 1.0
  Statistics:
-  TotalNodeCount: 14305
-  Objects: 3199
+  TotalNodeCount: 14470
+  Objects: 3232
   ObjectTypes: 64
-  Variables: 11015
+  Variables: 11147
   VariableTypes: 0
   DataTypes: 0
   Methods: 27
