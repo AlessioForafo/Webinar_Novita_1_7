@@ -139,6 +139,31 @@ Children:
             Type: BaseDataVariableType
             DataType: ColorizationModeEnum
             ModellingRule: Optional
+        - Name: HorizontalGap
+          Type: BaseDataVariableType
+          DataType: Size
+          ModellingRule: Optional
+          Value: 20.0
+        - Name: LeftMargin
+          Type: BaseVariableType
+          DataType: Size
+          ModellingRule: Optional
+          Value: 10.0
+        - Name: RightMargin
+          Type: BaseVariableType
+          DataType: Size
+          ModellingRule: Optional
+          Value: 10.0
+        - Name: TopMargin
+          Type: BaseVariableType
+          DataType: Size
+          ModellingRule: Optional
+          Value: 40.0
+        - Name: BottomMargin
+          Type: BaseVariableType
+          DataType: Size
+          ModellingRule: Optional
+          Value: 40.0
         - Name: ComboBox1
           Type: ComboBox
           Children:
@@ -170,7 +195,7 @@ Children:
                 Type: BaseVariableType
                 DataType: DynamicLinkMode
                 ModellingRule: Optional
-                Value: 1
+                Value: 2
           - Name: SelectedItem
             Type: NodePointer
             DataType: NodeId
@@ -194,7 +219,7 @@ Children:
             Type: BaseVariableType
             DataType: Size
             ModellingRule: Optional
-            Value: 200.0
+            Value: 150.0
           - Name: Item
             Type: Alias
             DataType: NodeId
@@ -203,10 +228,6 @@ Children:
               Type: PropertyType
               DataType: NodeId
               Value: "/Types/VariableTypes/BaseVariableType/BaseDataVariableType"
-          - Name: HorizontalAlignment
-            Type: BaseVariableType
-            DataType: HorizontalAlignment
-            ModellingRule: Optional
           - Name: DisplayValuePath
             Type: BaseDataVariableType
             DataType: LocalizedText
@@ -223,31 +244,6 @@ Children:
               Type: DynamicLink
               DataType: NodePath
               Value: "{Item}"
-        - Name: HorizontalGap
-          Type: BaseDataVariableType
-          DataType: Size
-          ModellingRule: Optional
-          Value: 20.0
-        - Name: LeftMargin
-          Type: BaseVariableType
-          DataType: Size
-          ModellingRule: Optional
-          Value: 10.0
-        - Name: RightMargin
-          Type: BaseVariableType
-          DataType: Size
-          ModellingRule: Optional
-          Value: 10.0
-        - Name: TopMargin
-          Type: BaseVariableType
-          DataType: Size
-          ModellingRule: Optional
-          Value: 40.0
-        - Name: BottomMargin
-          Type: BaseVariableType
-          DataType: Size
-          ModellingRule: Optional
-          Value: 40.0
       - Name: LeftMargin
         Type: BaseVariableType
         DataType: Size
